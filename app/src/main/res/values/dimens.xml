@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_gap_margin">20dp</dimen>
+    <dimen name="spacing_material_medium">16dp</dimen>
+    <dimen name="spacing_material_huge">86dp</dimen>
+    <dimen name="spacing_material_small">8dp</dimen>
+    <dimen name="spacing_material_extra_small">4dp</dimen>
+    <dimen name="card_spacing">10dp</dimen>
+
+    <dimen name="buttonBorderWidth">1.5dp</dimen>
+    <dimen name="buttonRadius">22.5dp</dimen>
+</resources>

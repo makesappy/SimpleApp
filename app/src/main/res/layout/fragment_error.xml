@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.alterac.blurkit.BlurLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:blk_blurRadius="12"
+    app:blk_fps="0"
+    tools:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:paddingStart="@dimen/spacing_material_huge"
+            android:paddingEnd="@dimen/spacing_material_huge"
+            android:src="@drawable/ic_warning_sign" />
+
+        <TextView
+            android:id="@+id/tvError"
+            style="@style/TextMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/spacing_material_medium"
+            tools:text="General error happenzdcsmlkdcmslkdcmslkdcmlsdcmlskdmcded" />
+
+        <Button
+            android:id="@+id/btnOk"
+            style="@style/RoundedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_material_huge"
+            android:text="@string/error_screen.ok.label"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</io.alterac.blurkit.BlurLayout>

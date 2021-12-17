@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SimpleApp</string>
+    <string name="activity_main.toolbar.label">Today will be: %s</string>
+    <string name="fragment_hottest.label">Hottest</string>
+    <string name="fragment_upcoming.label">Upcoming</string>
+    <string name="item_forecast_day.description.label">Day %1s : %2s</string>
+    <string name="fragment_details.desc.label">Description: </string>
+    <string name="fragment_details.sunrise.label">Sunrise at: </string>
+    <string name="fragment_details.sunset.label">Sunset at: </string>
+    <string name="fragment_details.chance_rain.label">Chance rain: </string>
+    <string name="fragment_details.high_temp.label">High temperature: </string>
+    <string name="fragment_details.low_temp.label">Low temperature: </string>
+    <string name="fragment_details.download.label">Download</string>
+    <string name="fragment_details.toolbar.label">Day: %s</string>
+    <string name="error_screen.ok.label">OK</string>
+</resources>

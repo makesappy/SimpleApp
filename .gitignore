@@ -1,0 +1,12 @@
+*.iml
+*.ipr
+*.iws
+
+.gradle
+/local.properties
+.idea/*
+!.idea/copyright
+/build
+/captures
+.externalNativeBuild
+**/build/*
